@@ -16,7 +16,7 @@ End the program
 ## Program:
 ```
 #Program to find the eigen values and eigen vectors.
-#Developed by: Sasidevi V
+#Developed by: SASIDEVI.V
 #RegisterNumber: 22008940
 ```
 ```
