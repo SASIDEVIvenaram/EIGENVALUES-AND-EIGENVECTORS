@@ -15,10 +15,15 @@ Using the np.linalg.eig(), we get two results (first is eigenvalue and second is
 End the program
 ## Program:
 ```
+#Program to find the eigen values and eigen vectors.
+#Developed by: Sasidevi V
+#RegisterNumber: 22008940
+```
+```
 import numpy as np
-A= np.array([[2,-3,0],[2,-5,0],[0,0,3]])
-eigenvalues , eigenvectors =np.linalg.eig(A)
-print('Eigen values are',eigenvalues,'and Eigen Vectors are',eigenvectors)
+A=np.array([[4,2],[2,4]])
+values,vectors=np.linalg.eig(A)
+print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
 ```
 ## Output:
 ![eigen](eigen.png)
